@@ -1,0 +1,60 @@
+.main {
+    height: 100vh;
+}
+
+.main > :global(.pure-form) {
+    display: block;
+    padding: 20px;
+    height: 210px;
+}
+
+.main :global(.pure-table) {
+    width: 100%;
+    position: relative;
+}
+
+.main :global(.pure-table) thead {
+    position: sticky;
+    top: 0;
+}
+
+.main .text-area {
+    display: block;
+    width: 100%;
+    resize: none;
+    margin-bottom: 8px;
+    font-family: 'PT Mono', monospace;
+}
+
+.main .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main > .results > h2 {
+    padding: 0 0 20px 20px;
+    margin: 0;
+    height: 50px;
+}
+
+.main .table-wrapper {
+    padding-bottom: 20px;
+    height: calc(100vh - 260px);
+    overflow: auto;
+}
+
+.main .details {
+    position: relative;
+}
+
+.main .details-info {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.main .no-results {
+    padding: 0 0 0 20px;
+}
