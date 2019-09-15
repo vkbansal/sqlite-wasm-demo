@@ -53,6 +53,7 @@
     background: white;
     border: 1px solid #ccc;
     padding: 10px 20px;
+    z-index: 1;
 }
 
 .main .no-results {

@@ -14,8 +14,7 @@ const config = {
     output: {
         filename: 'app.js',
         chunkFilename: 'app.[id].js',
-        path: path.resolve(process.cwd(), 'public'),
-        publicPath: './'
+        path: path.resolve(process.cwd(), 'public')
     },
     module: {
         rules: [
